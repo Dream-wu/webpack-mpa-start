@@ -1,0 +1,23 @@
+{
+  "name": "webpack-mpa-start",
+  "version": "1.0.0",
+  "description": "webpack 多页配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dream-wu/webpack-mpa-start.git"
+  },
+  "keywords": [
+    "webpack",
+    "mpa"
+  ],
+  "author": "wumj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dream-wu/webpack-mpa-start/issues"
+  },
+  "homepage": "https://github.com/Dream-wu/webpack-mpa-start#readme"
+}
