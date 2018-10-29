@@ -4,7 +4,9 @@
   "description": "webpack 多页配置",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/Dream-wu/webpack-mpa-start/issues"
   },
-  "homepage": "https://github.com/Dream-wu/webpack-mpa-start#readme"
+  "homepage": "https://github.com/Dream-wu/webpack-mpa-start#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
 }
